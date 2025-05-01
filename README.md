@@ -71,7 +71,7 @@ Session-based output organization
 GUI Interface Replace with actual screenshot
 
 📂 Project Structure
-handwritten-alphabet-recognition/
+handwritten-alphabet-prediction/
 ├── data/                   # Data management
 │   ├── raw/                # Original CSV files
 │   └── processed/          # Preprocessed NPZ files
