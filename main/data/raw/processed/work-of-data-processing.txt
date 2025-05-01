@@ -1,0 +1,33 @@
+Raw CSV → Load → Reshape → Normalize → Encode Labels → Train/Test Split → Save Processed Data
+
+Input/Output Paths:
+
+Auto Input: Always reads from data/raw/A_Z Handwritten Data.csv
+
+Auto Output: Saves processed data to:
+
+data/processed/
+├── train_data.npz (training set)
+└── test_data.npz (test set)
+2. Automatic Processing:
+
+Runs with one command:
+
+bash
+python src/data_processing.py
+Automatically:
+
+Creates processed directory if missing
+
+Converts 784-pixel CSV rows → 28x28x1 images
+
+Normalizes pixels (0-1 range)
+
+Encodes labels (0-25 → one-hot vectors)
+
+Splits data (80% train / 20% test)
+
+Saves as compressed numpy files
+
+3. Self-Contained Workflow
+No manual file operations needed after placing the raw CSV in the specified location.
