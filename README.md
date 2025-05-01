@@ -47,11 +47,11 @@ python main/train.py
 Training Parameters
 
 Parameter	Value
-Epochs	100
-Batch Size	256
-Learning Rate	0.0001
-Validation Split	20%
-Early Stopping	Patience=10
+Epochs - 100
+Batch Size - 256
+Learning Rate - 0.0001
+Validation Split - 20%
+Early Stopping - Patience=10
 
 🖥️ GUI Application
 Launch the drawing interface:
