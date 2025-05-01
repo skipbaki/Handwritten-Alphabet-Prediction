@@ -1,1 +1,1 @@
-'training_history.png' and 'class_distribution.png' graph will be saved here
+Your training histoy graph will be save here as 'training_history.png' and 'class_distribution.png' after training the model.
