@@ -35,6 +35,7 @@ pip install -r requirements.txt
 # Download dataset (requires Kaggle API setup)
 kaggle datasets download -d sachinpatel21/az-handwritten-alphabets-in-csv-format
 unzip az-handwritten-alphabets-in-csv-format.zip -d data/raw/
+
 🧠 Model Training
 Data Pipeline
 bash
@@ -51,6 +52,7 @@ Batch Size	256
 Learning Rate	0.0001
 Validation Split	20%
 Early Stopping	Patience=10
+
 🖥️ GUI Application
 Launch the drawing interface:
 
@@ -89,6 +91,7 @@ handwritten-alphabet-prediction/
 │   └── drawings/           # User drawings+results
 ├── requirements.txt        # Dependency list
 └── README.md               # Project guide
+
 📊 Performance Results
 Training Metrics
 Metric	Training	Validation
