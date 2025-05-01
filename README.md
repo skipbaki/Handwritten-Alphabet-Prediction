@@ -1,4 +1,4 @@
-# Handwritten Alphabet Recognition System
+# Handwritten Alphabet Prediction System
 
 ## 📌 Summary
 A deep learning solution for recognizing handwritten English alphabets (A-Z) using Convolutional Neural Networks (CNN). This system combines a high-accuracy machine learning model (99.4% validation accuracy) with an intuitive GUI interface, enabling real-time predictions through digital drawing input. The project implements full ML pipeline management from data preprocessing to model deployment.
@@ -57,7 +57,7 @@ Early Stopping - Patience=10
 Launch the drawing interface:
 
 bash
-python src/gui.py
+python main/gui.py
 GUI Features
 
 400x400 pixel drawing canvas
