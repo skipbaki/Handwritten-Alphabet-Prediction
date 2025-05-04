@@ -121,4 +121,4 @@ Visualization: Matplotlib, Seaborn
 📧 Contact
 Project Maintainer
 BAKI
-Email - bishal.rajbb@gmail.com
+Email - geekbaki@gmail.com
