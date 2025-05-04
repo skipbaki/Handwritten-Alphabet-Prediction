@@ -103,31 +103,20 @@ Confusion Matrix
 Confusion Matrix
 
 🤝 Contributing
+
 We welcome contributions! Please follow these guidelines:
-
-Open an issue to discuss proposed changes
-
-Fork the repository
-
-Create feature branch (git checkout -b feature/NewFeature)
-
-Commit changes (git commit -m 'Add NewFeature')
-
-Push branch (git push origin feature/NewFeature)
-
-Submit Pull Request
-
-Development Standards
-
-PEP8 compliance
-
-Comprehensive docstrings
-
-Unit test coverage for new features
-
-Type hinting enforcement
-
-Modular code structure
+-Open an issue to discuss proposed changes
+-Fork the repository
+-Create feature branch (git checkout -b feature/NewFeature)
+-Commit changes (git commit -m 'Add NewFeature')
+-Push branch (git push origin feature/NewFeature)
+-Submit Pull Request
+-Development Standards
+-PEP8 compliance
+-Comprehensive docstrings
+-Unit test coverage for new features
+-Type hinting enforcement
+-Modular code structure
 
 🙏 Acknowledgements
 Dataset: AZ Handwritten Alphabets by Sachin Patel
