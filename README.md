@@ -109,6 +109,7 @@ We welcome contributions! Please follow these guidelines:
 -Modular code structure
 
 🙏 Acknowledgements
+
 Dataset: AZ Handwritten Alphabets by Sachin Patel
 
 Core Libraries: TensorFlow, Keras, OpenCV, Pillow
