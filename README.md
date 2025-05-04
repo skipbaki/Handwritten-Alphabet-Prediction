@@ -92,16 +92,6 @@ handwritten-alphabet-prediction/
 ├── requirements.txt        # Dependency list
 └── README.md               # Project guide
 
-📊 Performance Results
-Training Metrics
-Metric	Training	Validation
-Accuracy	99.76%	99.41%
-Loss	0.0089	0.0121
-Training Curves
-
-Confusion Matrix
-Confusion Matrix
-
 🤝 Contributing
 
 We welcome contributions! Please follow these guidelines:
