@@ -140,5 +140,5 @@ Visualization: Matplotlib, Seaborn
 
 📧 Contact
 Project Maintainer
-Bishal Raj Basumatary
+BAKI
 Email - bishal.rajbb@gmail.com
