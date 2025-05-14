@@ -38,7 +38,6 @@ unzip az-handwritten-alphabets-in-csv-format.zip -d data/raw/
 
 🧠 Model Training
 Data Pipeline
-bash
 # 1. Preprocess data
 python main/data_processing.py
 
