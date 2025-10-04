@@ -18,7 +18,7 @@ A deep learning solution for recognizing handwritten English alphabets (A-Z) usi
 - **Validation Strategy**: Stratified 80-20 split
 - **Augmentations**: Built-in dropout layers for regularization
 
-## 🛠 Installation Guide
+## sInstallation Guide
 
 ### Prerequisites
 - Python 3.8+ 
