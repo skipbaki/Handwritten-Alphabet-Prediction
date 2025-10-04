@@ -18,7 +18,7 @@ A deep learning solution for recognizing handwritten English alphabets (A-Z) usi
 - **Validation Strategy**: Stratified 80-20 split
 - **Augmentations**: Built-in dropout layers for regularization
 
-## sInstallation Guide
+## Installation Guide
 
 ### Prerequisites
 - Python 3.8+ 
@@ -93,7 +93,7 @@ handwritten-alphabet-prediction/
 
 Contributing
 
-We welcome contributions! Please follow these guidelines:
+We welcome contributions. Please follow these guidelines:
 -Open an issue to discuss proposed changes
 -Fork the repository
 -Create feature branch (git checkout -b feature/NewFeature)
@@ -105,7 +105,6 @@ We welcome contributions! Please follow these guidelines:
 -Comprehensive docstrings
 -Unit test coverage for new features
 -Type hinting enforcement
--Modular code structure
 
 Acknowledgements
 
