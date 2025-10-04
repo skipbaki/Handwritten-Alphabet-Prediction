@@ -1,9 +1,9 @@
 # Handwritten Alphabet Prediction System
 
-## 📌 Summary
+## Summary
 A deep learning solution for recognizing handwritten English alphabets (A-Z) using Convolutional Neural Networks (CNN). This system combines a high-accuracy machine learning model (99.4% validation accuracy) with an intuitive GUI interface, enabling real-time predictions through digital drawing input. The project implements full ML pipeline management from data preprocessing to model deployment.
 
-## 🚀 Key Features
+## Key Features
 ### Core Capabilities
 - **Multi-Layer CNN Architecture**: 3x Conv2D + MaxPooling with Batch Normalization
 - **Interactive GUI**: Natural drawing canvas with prediction visualization
@@ -36,7 +36,7 @@ pip install -r requirements.txt
 kaggle datasets download -d sachinpatel21/az-handwritten-alphabets-in-csv-format
 unzip az-handwritten-alphabets-in-csv-format.zip -d data/raw/
 
-🧠 Model Training
+Model Training
 Data Pipeline
 # 1. Preprocess data
 python main/data_processing.py
@@ -52,7 +52,7 @@ Learning Rate - 0.0001
 Validation Split - 20%
 Early Stopping - Patience=10
 
-🖥️ GUI Application
+GUI Application
 Launch the drawing interface:
 
 bash
@@ -71,27 +71,27 @@ Session-based output organization
 
 GUI Interface Replace with actual screenshot
 
-📂 Project Structure
+Project Structure
 handwritten-alphabet-prediction/
-├── data/                   # Data management
-│   ├── raw/                # Original CSV files
-│   └── processed/          # Preprocessed NPZ files
-├── models/                 # Model storage
-│   ├── best_model.keras    # Optimal weights
-│   └── final_model.keras   # Final training result
-├── main/                   # Source code
-│   ├── data_processing.py  # Data pipeline
-│   ├── model.py            # CNN architecture
-│   ├── train.py            # Training script
-│   ├── predict.py          # Inference module
-│   └── gui.py              # Tkinter interface
-├── outputs/                # Generated content
-│   ├── plots/              # Training visualizations
-│   └── drawings/           # User drawings+results
-├── requirements.txt        # Dependency list
-└── README.md               # Project guide
+├── data/                   : Data management
+│   ├── raw/                : Original CSV files
+│   └── processed/          : Preprocessed NPZ files
+├── models/                 : Model storage
+│   ├── best_model.keras    : Optimal weights
+│   └── final_model.keras   : Final training result
+├── main/                   : Source code
+│   ├── data_processing.py  : Data pipeline
+│   ├── model.py            : CNN architecture
+│   ├── train.py            : Training script
+│   ├── predict.py          : Inference module
+│   └── gui.py              : Tkinter interface
+├── outputs/                : Generated content
+│   ├── plots/              : Training visualizations
+│   └── drawings/           : User drawings+results
+├── requirements.txt        : Dependency list
+└── README.md               : Project guide
 
-🤝 Contributing
+Contributing
 
 We welcome contributions! Please follow these guidelines:
 -Open an issue to discuss proposed changes
@@ -107,7 +107,7 @@ We welcome contributions! Please follow these guidelines:
 -Type hinting enforcement
 -Modular code structure
 
-🙏 Acknowledgements
+Acknowledgements
 
 Dataset: AZ Handwritten Alphabets by Sachin Patel
 
@@ -117,7 +117,7 @@ GUI Framework: Tkinter
 
 Visualization: Matplotlib, Seaborn
 
-📧 Contact
+Contact
 Project Maintainer
-BAKI
+BAKI BORO
 Email - geekbaki@gmail.com
